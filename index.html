@@ -12,29 +12,33 @@
         <div class="container">
             <footer class="bg-[#659f8f] dark:bg-[#313131]">
                 <div class="container px-6 py-12 mx-auto">
-                    <div class="grid-cols-1 gap-6 
-                                sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+                    <div class="grid-cols-1
+                                sm:grid-cols-2 lg:grid-cols-4">
 
                         <div class="sm:col-span-2">
-                            <h1 class="font-sans text-base bold max-w-lg">Subscribe to our newsletter for updates.</h1>
+                            <h1 aria-label="newsletter header" class="font-sans text-base bold max-w-lg">Subscribe to our newsletter for updates.</h1>
                             <div class="flex flex-col mx-auto mt-6 space-y-3 
-                                        md:space-y-0 md:flex-row gap-6 sm:cols-2 sm:gap-y-10 
+                                        md:space-y-0 md:flex-row gap-6 sm:cols-2 
                                         lg:grid-cols-4">
 
-                                <input id="email" type="text" placeholder="Email Address" 
+                                <input="email" type="text" placeholder="Email Address" 
                                         class="flex justify-start 
-                                        w-1/2 align-right form-control rounded-md active cursor-pointer">
+                                        align-right form-control rounded-md active cursor-pointe
+                                        sm:grid-cols-2" aria-label="Email input">
 
-                                <button class="text-white w-full px-6 py-2.5 bg-orange-500 
+                                <button class="text-white px-6 py-2.5 bg-orange-500 
                                 rounded-md hover:bg-orange-400 active cursor-pointer col-auto">
                                     Subscribe
                                 </button>
                             </div>
                         </div>
+                    <div class="grid-cols-2 justify-start">
+
+                        
                         <div class="grid float-right">
                             <p class="text-[#313131] pb-3 pl-5" >Quick Link</p>
                             <div class="flex">
-                                <ul class="list-none">
+                                <ul class="list-none space-y-1">
                                 <li> <a href="https://www.codespace.co.za/">Home</a> </li>
                                 <li> <a href="https://www.codespace.co.za/about/">Who We Are</a> </li>
                                 <li> </li><a href="#">Our Philosophy</a> </li>
@@ -44,13 +48,14 @@
                         <div class="grid float-right">
                             <p class="text-[#313131] pb-3 ">Technologies</p>
                             <div class="form-control">
-                                <ul class="list-none">
+                                <ul class="list-none space-y-1">
                                 <li> <a href="https://www.codespace.co.za/programs/software-development/">HTML</a> </li>
                                 <li> <a href="https://www.codespace.co.za/programs/software-development/">CSS</a> </li>
                                 <li> <a href="https://www.codespace.co.za/programs/javascript-engineering/">Javascript</a> </li>
                                 </ul>
                             </div>
                         </div>
+                    </div>
                     </div>
                     
                     <hr class="my-6 border-[#d86943]">
